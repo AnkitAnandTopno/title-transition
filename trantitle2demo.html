@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>--My Resume--</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--facebook like button-->
+	<!--facebook like button-->
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/title-transition-1.1.2.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/trans-title.css">
+
+	<script>
+	$(document).ready(function(){
+		$(".inputuno").keyup(function(){
+			$.trangencustom();
+			$.trangen("#list-tran-ul");
+			$.transitionTitlecustom(".trigger");
+		});
+	});
+	</script>
+	<style type="text/css">
+	body{
+		margin:0px;
+	}
+			</style>
+	</head>
+	<body>
+	<img src="images/photo1.jpg" style="height:100%;right:0;position:absolute;z-index:-100px;">
+	
+		<ul id="list-tran-ul" style="list-style-type:none">
+			
+		</ul>
+		<input type="text" class="inputuno" name="in"><button id="trigger1" class="trigger" data-title="go">GO</button>
+	</body>
+</html>
